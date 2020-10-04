@@ -2,7 +2,7 @@
 
 Esse repositório contém dois testes de front-end.
 - `data-store`: crie um algoritmo que faça extração de item de um determinado "data store"
-- `api-consumer`: utilize sua stack preferida de front-end para consumir um api específica
+- `api-consumer`: utilize sua stack preferida de front-end para construir um consumidor de uma api específica
 
 ## Testes
 
@@ -11,7 +11,7 @@ Finalize pelo menos um dos testes. A execução de ambos é opcional, mas você 
 
 ## Requisitos
 
-Para ambos os testes, existem alguns pontos que valorizamos bastante e gostaríamos fossem satisfatórios:
+Para ambos os testes, existem alguns pontos que valorizamos bastante e gostaríamos que fossem satisfatórios:
 - Escreva testes unitários para **pelo menos** 85% do código
 - Escolha um padrão de formatação de código com utilização ampla, para o javascript - preferencialmente [airbnb](https://github.com/airbnb/javascript)
 - Sua solução deve ser organizada e bem documentada
