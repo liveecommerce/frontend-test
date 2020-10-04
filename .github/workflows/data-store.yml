@@ -16,41 +16,23 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+
     - name: Install yarn
       working-directory: data-store
       run: npm install -g yarn
-  build:
-    runs-on: ubuntu-latest
-    needs: setup
-
-    strategy:
-      matrix:
-        node-version: [12.x, 14.x]
-
-    steps:
+ 
     - name: Install dependencies
       working-directory: data-store
       run: yarn install
 
-  test:
-    runs-on: ubuntu-latest
-    needs: build
-
-    strategy:
-      matrix:
-        node-version: [12.x, 14.x]
-
-    steps:
-    - name: Build the package
+    - name: Build the package and check code syntax and unit tests
       working-directory: data-store
-      run: yarn build
-    - name: Check code syntax
-      working-directory: data-store
-      run: yarn lint
-    - name: Check unit tests
-      working-directory: data-store
-      run: yarn test
+      run: |
+        yarn build
+        yarn lint
+        yarn test
