@@ -1,4 +1,4 @@
-name: data-store build and test
+name: Build and test
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  setup:
+  build:
     runs-on: ubuntu-latest
 
     strategy:
