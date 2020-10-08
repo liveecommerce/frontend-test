@@ -13,6 +13,7 @@ Finalize pelo menos um dos testes. A execução de ambos é opcional, mas você 
 
 Para ambos os testes, existem alguns pontos que valorizamos bastante e gostaríamos fossem satisfatórios:
 - Escreva testes unitários para **pelo menos** 85% do código
+- Tenha instruções claras de como configurar e executar seu projeto no `README.md`
 - Escolha um padrão de formatação de código com utilização ampla, para o javascript - preferencialmente [airbnb](https://github.com/airbnb/javascript)
 - Sua solução deve ser organizada e bem documentada
 - Todo o código deve estar em inglês, assim como todos os comentários e docs
