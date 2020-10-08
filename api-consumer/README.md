@@ -21,7 +21,7 @@ Apenas a primeira geração - os primeiros 151 - será suficiente para o que que
 
 ### Mockup
 
-[[https://github.com/liveecommerce/frontend-test/blob/main/api-consumer/mockup.png|alt=mockup]]
+![](mockup.png)
 
 
 ## O que consideramos como essencial
