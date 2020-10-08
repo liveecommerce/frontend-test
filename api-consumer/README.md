@@ -9,7 +9,7 @@ Você irá consumir a [PokéAPI](https://pokeapi.co/docs/v2), que é gratuita e 
 
 ### Dados necessários
 
-Você deverá utilizar um ou mais [endpoints de pokémon] (https://pokeapi.co/docs/v2#pokemon) e exibir algumas informações básicas como:
+Você deverá utilizar um ou mais [endpoints de pokémon](https://pokeapi.co/docs/v2#pokemon) e exibir algumas informações básicas como:
 - Nome
 - Número na ordem
 - Imagem frontal
