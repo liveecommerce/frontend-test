@@ -2,7 +2,7 @@
 
 ![Build and test](https://github.com/liveecommerce/frontend-test/workflows/Build%20and%20test/badge.svg)
 
-Para esse teste você deverá fazer o testes unitários passarem sem alterá-los.\
+Para esse teste você deverá fazer os testes unitários passarem sem alterá-los.\
 A build está intencionalmente falhando e você deverá fazer a badge acima ficar verde, exibindo status de "successo".
 
 
