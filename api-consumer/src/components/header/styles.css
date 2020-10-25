@@ -1,0 +1,21 @@
+.header {
+    background-color: var(--white);
+    padding: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 2px solid var(--grayLighter);
+}
+
+
+.header p {
+    text-align: center;
+    font-size: x-large;
+}
+
+@media (min-width: 768px) {
+    .header {
+        right: 1px;
+    }
+}

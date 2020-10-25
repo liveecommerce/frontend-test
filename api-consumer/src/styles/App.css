@@ -1,0 +1,32 @@
+.main__container {
+    width: 100%;
+    min-height: 90vh;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: 100px;
+}
+
+.main__content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 16px;
+}
+
+.main__button {
+    padding: 10px;
+    border: solid 1px var(--gray);
+    border-radius: 10px;
+    width: 125px;
+    cursor: pointer;
+}
+
+.main__button:hover {
+    background-color: var(--grayLighter);
+}
+
+.main__button:active {
+    background-color: var(--grayDarker);
+    transition: 0.1s;
+}
