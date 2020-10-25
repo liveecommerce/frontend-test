@@ -14,8 +14,14 @@ yarn start
 
 ## Testing the project 
 
+Watch changes
 ```bash
 yarn test
+```
+
+Watch with coverage
+```bash
+yarn test:coverage
 ```
 
 ## Building the project 
