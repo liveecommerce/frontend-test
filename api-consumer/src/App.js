@@ -6,7 +6,7 @@ import { Card } from './components/card';
 
 const pokeapiUrl = 'https://pokeapi.co/api/v2/pokemon';
 function buildUrl(limit, offset) {
-  return `${pokeapiUrl}/?limit=${Number(limit)}&offset=${Number(offset)}`
+  return `${pokeapiUrl}/?limit=${limit}&offset=${offset}`
 }
 
 const DEFAULT_LIMIT = 12;

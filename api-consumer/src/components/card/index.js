@@ -24,7 +24,7 @@ export const Card = ({ url }) => {
             {error ? <div> {error} </div> : null}
             {!pokemon && !error ? <div>Loading...</div> : null}
             {pokemon ? (
-                <>
+                <React.Fragment>
                     <img src={pokemon.sprites.front_default} alt={pokemon.name} />
                     <div className="card-container"><b>#</b>{pokemon.order} </div>
                     <div className="card-container"> {pokemon.name} </div>
@@ -33,7 +33,7 @@ export const Card = ({ url }) => {
                             <p key={type.name}> {type.name} </p>
                         ))}
                     </div>
-                </>
+                </React.Fragment>
             ) : null}
         </div>
     )

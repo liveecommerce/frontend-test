@@ -3,7 +3,7 @@
     padding: 10px 20px;
     border: 1px solid var(--grayLighter);
     width: 12.5%;
-    margin: 5px;
+    margin-bottom: 10px;
     background-color: var(--white);
 }
 
@@ -23,8 +23,14 @@
     text-align: center;
 }
 
-@media (min-width: 480px) {
+@media (max-width: 768px) {
     .card {
-        padding: 4px 40px;
+        width: 33%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 50%;
     }
 }
