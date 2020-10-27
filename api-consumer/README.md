@@ -1,35 +1,35 @@
-# Teste de "api consumer"
+# Instructions
 
-Para esse teste você deverá utilizar o seu framework preferido de front-end, consumir uma api e implementar a interface para exibição dos dados, se baseando no mockup que iremos fornecer.
+## Installing 
 
+```bash
+yarn
+```
 
-## A API
+## Starting the project 
 
-Você irá consumir a [PokéAPI](https://pokeapi.co/docs/v2), que é gratuita e aberta para uso educacional.
+```bash
+yarn start 
+```
 
-### Dados necessários
+## Testing the project 
 
-Você deverá utilizar um ou mais [endpoints de pokémon](https://pokeapi.co/docs/v2#pokemon) e exibir algumas informações básicas como:
-- Nome
-- Número na ordem
-- Imagem frontal
-- Tipos
+Watch changes
+```bash
+yarn test
+```
 
-Use o seu melhor julgamento para determinar como será o consumo dos endpoints, para o menor tráfego de dados possível para o que queremos utilizar.
+Watch with coverage
+```bash
+yarn test:coverage
+```
 
-Apenas a primeira geração - os primeiros 151 - será suficiente para o que queremos que você nos mostre.
+## Building the project 
 
-### Mockup
+```bash
+yarn build 
+```
 
-![](mockup.png)
+### Technologies 
 
-
-## O que consideramos como essencial
-
-Todos os pontos que são citados no `README.md`, que está na raiz desse repositório.
-
-
-## Adicionais
-
-- Como é uma API pública, de "fair use", utilize cache local sempre que possível para evitar requisições desnecessárias, já que os dados tem pouca frequência de atualização
-- Filtro por nome e ordenação (a-z, z-a, número crescente, número decrescente) são recursos interessantes
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
